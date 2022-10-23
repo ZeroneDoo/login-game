@@ -1,0 +1,74 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+canvas{
+    background-image : url("bg_game.jpg");
+    border: 1px purple solid;
+}
+
+@keyframes logo {
+    0%{
+        margin-top:-150px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 56px;
+        opacity: 1;
+    }
+}
+
+@keyframes card{ 
+    0%{
+        width: 25%;
+        opacity: 0;
+    }
+    100%{
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes footer {
+    0%{
+        margin-top: 500px;
+        opacity: 0;
+    }
+    100%{
+        /* margin-top: px; */
+        opacity: 1;
+    }
+}
+
+#card{
+    animation-name: card;
+    animation-duration: 1.5s;
+}
+
+#footer{
+    animation-name: footer;
+    animation-duration: 1.5s;
+}
+
+#logo{
+    animation-name: logo;
+    animation-duration: 2.5s;
+}
+
+#arena{
+    display: none;
+}
+
+#pilih_menu{
+    display: none;
+}
+
+#akun{
+    position: absolute;
+    top : 6.3%;
+    left: 14%;
+    font-weight: medium;
+    font-size: 23px;
+}
+
+/* #score_db */
